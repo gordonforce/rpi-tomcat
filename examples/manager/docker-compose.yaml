@@ -1,0 +1,13 @@
+version: "2.0"
+
+services:
+  tomcat:
+    environment:
+    - CATALINA_OPTS="-server -Xmx64m"
+    image: gordonff/rpi-tomcat:latest
+    ports:
+    - 8080:8080
+    volumes:
+    - ./tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml:ro
+    - ./manager.xml:/usr/local/tomcat/conf/Catalina/localhost/manager.xml:ro
+

@@ -1,0 +1,6 @@
+<Context privileged="true">
+    <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+           addConnectorPort="true"
+           invalidAuthenticationWhenDeny="true"
+           allow=".*;8080"/>
+</Context>
