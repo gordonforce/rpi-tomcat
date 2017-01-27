@@ -78,7 +78,7 @@ services:
     - ./tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml:ro
     - ./manager.xml:/usr/local/tomcat/conf/Catalina/localhost/manager.xml:ro
 ```
-`examples/manager/manager.xml`
+`examples/manager/docker-compose.xml`
 
 By manipulating the `$CATALINA_OPTS` environment variable, one can alter Tomcat's JVM configuration. In this example, the JVM is started in server mode and will not use more than 64 megabytes of heap memory. The volumes section configures access to the manager application by overriding files in the docker image with files from this project.
 
