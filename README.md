@@ -86,5 +86,5 @@ Tomcat takes about 30 seconds or so to boot on a Raspberry Pi 3.
 - Once up, navigate to http://pihost/manager/html, where pihost is the address or hostname of your raspberry pi, to access the manager console. Enter _bob_ for the username and _abc123_ for the password when prompted.
 - Once at the console, click on the "Server Status" link to view the JVM configuration. Notice, that Tomcat does not use more than 64 MB of heap memory.
 
-Find out more about configuring Tomcat's Manager Application [here](http://pihost:8080/docs/manager-howto.html).
+Find out more about configuring Tomcat's Manager Application here http://pihost:8080/docs/manager-howto.html.
 
