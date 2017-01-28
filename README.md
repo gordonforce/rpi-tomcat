@@ -18,8 +18,6 @@ $ docker run -it --rm -p 8080:8080 gordonff/rpi-tomcat:8.5
 $ docker run -it --rm -p 8888:8080 gordonff/rpi-tomcat:8.5
 ```
 
-The examples directory contains docker-compose examples described below
-
 #### Tomcat Manager Application
 
 Deployers either add some form of authenticated access to the Tomcat manager application or remove it as it can be a security risk if left poorly configured and deployed.
