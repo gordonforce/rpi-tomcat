@@ -7,15 +7,14 @@ A stable version of Tomcat 8 and JRE 8 for Raspberry Pi similar to other images 
 ### How to use this image
 
 Use an image tag to select a specific versions of tomcat starting with version 8.5.11.
-* 8.5.12, 8.5, 8.5-jre, latest: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/master/Dockerfile)
+* 8.5.13, 8.5, 8.5-jre, latest: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/master/Dockerfile)
+* 8.5.12: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8512master/Dockerfile)
 * 8.5.11: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8511/Dockerfile)
 
 The usage examples on the [Offical Tomcat image dockerhub  page](https://hub.docker.com/_/tomcat/) are valid for this image after changing the image name. Here are the examples using the update image name and tag. Use control-c to stop each image or stop a container using the docker stop command from another terminal.
 
 ```yaml
 $ docker run -it --rm -p 8080:8080 gordonff/rpi-tomcat:8.5
-
-$ docker run -it --rm -p 8888:8080 gordonff/rpi-tomcat:8.5
 ```
 
 #### Tomcat Manager Application

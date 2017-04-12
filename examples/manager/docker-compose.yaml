@@ -3,7 +3,6 @@ version: "2.0"
 services:
   tomcat:
     environment:
-    - CATALINA_OPTS="-server -Xmx64m"
     image: gordonff/rpi-tomcat:latest
     ports:
     - 8080:8080

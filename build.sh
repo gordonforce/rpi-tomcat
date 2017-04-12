@@ -2,7 +2,7 @@
 
 docker build -t gordonff/rpi-tomcat:latest .
 
-docker build -t gordonff/rpi-tomcat:8.5.12 .
+docker build -t gordonff/rpi-tomcat:8.5.13 .
 
 docker build -t gordonff/rpi-tomcat:8.5 .
 
