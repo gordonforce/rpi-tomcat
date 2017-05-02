@@ -8,7 +8,7 @@ A stable version of Tomcat 8 and JRE 8 for Raspberry Pi similar to other images 
 
 Use an image tag to select a specific versions of tomcat starting with version 8.5.11.
 * 8.5.14, 8.5, 8.5-jre, latest: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/master/Dockerfile)
-* 8.5.13, 8.5, 8.5-jre, latest: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8513/Dockerfile)
+* 8.5.13: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8513/Dockerfile)
 * 8.5.12: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8512/Dockerfile)
 * 8.5.11: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8511/Dockerfile)
 
