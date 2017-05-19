@@ -7,7 +7,7 @@ ENV CATALINA_HOME=/usr/local/tomcat \
     JAVA_HOME=/usr/lib/jvm/java-8-openjdk-armhf/jre \
     LANG=C.UTF-8 \
     TOMCAT_MAJOR=8 \
-    TOMCAT_VERSION=8.5.14
+    TOMCAT_VERSION=8.5.15
 
 ENV PATH=$CATALINA_HOME/bin:$PATH \
   	TOMCAT_TGZ_URL=http://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
