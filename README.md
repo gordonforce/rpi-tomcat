@@ -7,7 +7,8 @@ A stable version of Tomcat 8 and JRE 8 for Raspberry Pi similar to other images 
 ### How to use this image
 
 Use an image tag to select a specific version of tomcat starting with version 8.5.11.
-* 8.5.16, 8.5, 8.5-jre, latest: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/master/Dockerfile)
+* 8.5.20, 8.5, 8.5-jre, latest: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/master/Dockerfile)
+* 8.5.16, [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8516/Dockerfile)
 * 8.5.15: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8515/Dockerfile)
 * 8.5.14: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8514/Dockerfile)
 * 8.5.13: [Dockerfile](https://github.com/gordonforce/rpi-tomcat/blob/v8513/Dockerfile)
@@ -24,7 +25,7 @@ $ docker run -it --rm -p 8080:8080 gordonff/rpi-tomcat:8.5
 
 Deployers either add some form of authenticated access to the Tomcat manager application or remove it as it can be a security risk if left poorly configured and deployed.
 
-The `$CATALINA_HOME/conf/tomcat-users.xml' file provides a simple form of authenticated access without a third party service such as LDAP or a database server. Note the provided schema file allows one to check their users file against an xml schema.
+The `$CATALINA_HOME/conf/tomcat-users.xml` file provides a simple form of authenticated access without a third party service such as LDAP or a database server. Note the provided schema file allows one to check their users file against an xml schema.
 
 Tomcat's manager applications contains three interfaces:
 * an HTML based HTTP interface for humans
